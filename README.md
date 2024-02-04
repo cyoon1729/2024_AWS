@@ -1,3 +1,38 @@
+# TEAM_iCuHack
+
+Hello! We are Chris Yoon, Erica Choi, Kevin Park, Ha Yeon Kim, and Joey Koh.
+We participated in AWS iQuHACK 2024 In-Person Challenge.
+This is our repo and we have short slides about our noise aware compilation of 
+AWS Braket circuits.
+[Link to our slides](https://docs.google.com/presentation/d/1j7Nu_adU32vfPOUmudidZ-MPrti-X4SPa5-mQk71t44/edit?usp=sharing)
+Following the instructions below you will be able to test our compiler.
+
+## Instructions
+
+**First,** fork the repo and open it in your terminal.
+
+**Secondly,** activate your virtual enviornment to run poetry.
+```
+source .venv/bin/activate
+``` 
+**Third,** install the poetry(python libraries needed for the code)
+```
+poetry install
+``` 
+If it is missing typer then please manually add typer to poetry using the following code:
+```
+poetry add typer
+```
+Then install poetry again.
+**Finally,** using the following line of code you can test our compiler!
+```
+python3.11 compiler.py demo1.py candidate_pair.json
+```
+
+If you want to try your own circuit, you can simply edit the circuit code in demo1.py.
+
+Enjoy!
+
 # 2024_AWS
 AWS iQuHACK 2024 In-Person Challenge
 
